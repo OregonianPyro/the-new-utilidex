@@ -53,4 +53,4 @@ client.on('guildCreate', (guild) => {
     guild.members.forEach(m => client.db.user.moderationCases.set(m.user.id, []));
 });
 
-client.login('NDU0NDEyOTg4MzE3Njk2MDMy.Xsjhxg.Tv_a0s2KWFpXu_TmStOFrnoTM0Q')
+client.login('')
